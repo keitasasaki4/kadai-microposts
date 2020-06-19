@@ -1,4 +1,4 @@
-<ul class="list-unstyled">
+ <ul class="list-unstyled">
     @foreach ($microposts as $micropost)
         <li class="media mb-3">
             <img class="mr-2 rounded" src="{{ Gravatar::src($micropost->user->email, 50) }}" alt="">
